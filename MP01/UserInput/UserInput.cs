@@ -6,6 +6,7 @@ namespace UserInput
 	public class UInput
 	{
 		About.Me about=new About.Me ();
+		Colors.ForCLI _c=new Colors.ForCLI ();
 		public UInput ()
 		{
 		}
@@ -18,15 +19,27 @@ namespace UserInput
 			string _command = "";
 
 			do {
-				Console.Write ("$");
-				_command=Console.ReadLine ();
+				//Взимане на команда
+				_c.Prompt ();  Console.Write ("$");
+				_c.Command ();_command=Console.ReadLine ();
 
 				//проверка за наличните команди
-				if (_command.ToLower().Contains("команда1")) Console.WriteLine("Стартирана е команда 1 \n");
-				if (_command.ToLower().Contains("команда2")) Console.WriteLine("Стартирана е команда 2 \n");
-				if (_command.ToLower().Contains("команда3")) Console.WriteLine("Стартирана е команда 3 \n");
-
-			} while (_command.ToLower () != "изход");
+				if (_command.ToLower().Contains("команда1")) 
+				{
+					_c.Default(); Console.WriteLine("Стартирана е ");
+					_c.Result (); Console.WriteLine("Команда 1 ");
+				}
+				if (_command.ToLower().Contains("команда2"))
+				{
+					_c.Default (); Console.WriteLine("Стартирана е ");
+					_c.Result (); Console.WriteLine("команда 2 ");
+				}
+				if (_command.ToLower().Contains("команда3")) 
+				{
+					_c.Default (); Console.WriteLine("Стартирана е ");
+					_c.Result (); Console.WriteLine("команда 3");
+				}
+				} while (_command.ToLower () != "изход");
 		}
 		public void justTesting()
 		{
