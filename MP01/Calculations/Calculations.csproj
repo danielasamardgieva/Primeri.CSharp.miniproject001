@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{83185CC4-BE83-469A-A206-E7E911212AE5}</ProjectGuid>
+    <ProjectGuid>{87978399-4514-44C2-B511-EF9034714112}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>UserInput</RootNamespace>
-    <AssemblyName>UserInput</AssemblyName>
+    <RootNamespace>Calculations</RootNamespace>
+    <AssemblyName>Calculations</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -32,21 +32,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserInput.cs" />
+    <Compile Include="Calculations.cs" />
+    <Compile Include="Formula01.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\About\About.csproj">
-      <Project>{38D7295D-26B9-4399-9095-950D6D09ACE2}</Project>
-      <Name>About</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Colors\Colors.csproj">
-      <Project>{75727321-2B72-4D52-8F1A-3855B3760541}</Project>
-      <Name>Colors</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Calculations\Calculations.csproj">
-      <Project>{87978399-4514-44C2-B511-EF9034714112}</Project>
-      <Name>Calculations</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>

@@ -7,6 +7,7 @@ namespace UserInput
 	{
 		About.Me about=new About.Me ();
 		Colors.ForCLI _c=new Colors.ForCLI ();
+		Calculations.MainLibrary _calc=new Calculations.MainLibrary ();
 		public UInput ()
 		{
 		}
@@ -24,10 +25,10 @@ namespace UserInput
 				_c.Command ();_command=Console.ReadLine ();
 
 				//проверка за наличните команди
-				if (_command.ToLower().Contains("команда1")) 
+				if (_command.ToLower().Contains("яма")) _calc.F01.calc(_command);
 				{
-					_c.Default(); Console.WriteLine("Стартирана е ");
-					_c.Result (); Console.WriteLine("Команда 1 ");
+				//	_c.Default(); Console.WriteLine("Стартирана е ");
+				//	_c.Result (); Console.WriteLine("Команда 1 ");
 				}
 				if (_command.ToLower().Contains("команда2"))
 				{
