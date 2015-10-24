@@ -33,6 +33,10 @@ namespace UserInput
 
 				if (_command.ToLower().Contains("иъгъл"))  								 _calc.F03.calc(_command);
 
+				if (_command.ToLower().Contains("стръгъл"))  							 _calc.F04.calc(_command);
+
+				if (_command.ToLower().Contains("канал"))  							    _calc.F05.calc(_command);
+
 				if (_command.ToLower().Contains("помощ") || _command.ToLower() =="-п")   _calc.commands ();
 
 				if (_command.ToLower()==("изчисти") || _command.ToLower() =="и")  
