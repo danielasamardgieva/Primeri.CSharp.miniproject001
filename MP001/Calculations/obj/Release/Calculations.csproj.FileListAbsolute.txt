@@ -6,3 +6,4 @@ C:\aula\primeri.csharp.miniproject001\MP001\Calculations\bin\Release\About.dll
 C:\aula\primeri.csharp.miniproject001\MP001\Calculations\bin\Release\Colors.dll
 C:\aula\primeri.csharp.miniproject001\MP001\Calculations\bin\Release\Colors.pdb
 C:\aula\primeri.csharp.miniproject001\MP001\Calculations\bin\Release\About.pdb
+C:\aula\primeri.csharp.miniproject001\MP001\Calculations\obj\Release\Calculations.csprojResolveAssemblyReference.cache
