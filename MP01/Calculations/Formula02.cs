@@ -32,7 +32,6 @@ namespace Calculations
 						_cl.Default();	Console.WriteLine (" m3 \n");
 
 					} else{
-
 						_cl.Default();	Console.WriteLine ("Има грешно въведени параметрил\n С параметъра '-п' можете да видите синтаксиса на командата.\n");
 					}
 				}
@@ -53,7 +52,6 @@ namespace Calculations
 				Double.TryParse (_param [3], out h);
 
 				_result = a * b * h / 3;
-
 				return true;
 			} catch {
 			}
@@ -74,7 +72,6 @@ namespace Calculations
 
 			_cl.Command ();	Console.Write (" h ");
 			_cl.Default ();	Console.WriteLine (" - височина");
-
 
 		}
 

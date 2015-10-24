@@ -1,0 +1,7 @@
+C:\aula\primeri.csharp.miniproject001\MP01\Colors\bin\Release\Colors.dll
+C:\aula\primeri.csharp.miniproject001\MP01\Colors\bin\Release\Colors.pdb
+C:\aula\primeri.csharp.miniproject001\MP01\Colors\bin\Release\About.dll
+C:\aula\primeri.csharp.miniproject001\MP01\Colors\bin\Release\About.pdb
+C:\aula\primeri.csharp.miniproject001\MP01\Colors\obj\Release\Colors.csprojResolveAssemblyReference.cache
+C:\aula\primeri.csharp.miniproject001\MP01\Colors\obj\Release\Colors.dll
+C:\aula\primeri.csharp.miniproject001\MP01\Colors\obj\Release\Colors.pdb

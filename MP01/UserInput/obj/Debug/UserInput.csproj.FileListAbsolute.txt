@@ -1,0 +1,1 @@
+C:\aula\primeri.csharp.miniproject001\MP01\UserInput\obj\Debug\UserInput.csprojResolveAssemblyReference.cache
