@@ -1,0 +1,4 @@
+C:\aula\primeri.csharp.miniproject001\MP001\About\bin\Release\About.dll
+C:\aula\primeri.csharp.miniproject001\MP001\About\bin\Release\About.pdb
+C:\aula\primeri.csharp.miniproject001\MP001\About\obj\Release\About.dll
+C:\aula\primeri.csharp.miniproject001\MP001\About\obj\Release\About.pdb

@@ -1,0 +1,4 @@
+C:\aula\primeri.csharp.miniproject001\MP001\Colors\bin\Release\Colors.dll
+C:\aula\primeri.csharp.miniproject001\MP001\Colors\bin\Release\Colors.pdb
+C:\aula\primeri.csharp.miniproject001\MP001\Colors\obj\Release\Colors.dll
+C:\aula\primeri.csharp.miniproject001\MP001\Colors\obj\Release\Colors.pdb

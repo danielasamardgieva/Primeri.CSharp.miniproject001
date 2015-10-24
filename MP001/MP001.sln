@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "About", "About\About.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colors", "Colors\Colors.csproj", "{60364F40-26EF-4447-AC7E-5036760C671E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations", "Calculations\Calculations.csproj", "{D2CA8D76-C8B4-4984-A8B0-6A288FA4C681}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -31,5 +33,9 @@ Global
 		{A9322024-8F45-4FE7-B432-ADD0EB8E3421}.Debug|x86.Build.0 = Debug|Any CPU
 		{A9322024-8F45-4FE7-B432-ADD0EB8E3421}.Release|x86.ActiveCfg = Release|Any CPU
 		{A9322024-8F45-4FE7-B432-ADD0EB8E3421}.Release|x86.Build.0 = Release|Any CPU
+		{D2CA8D76-C8B4-4984-A8B0-6A288FA4C681}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D2CA8D76-C8B4-4984-A8B0-6A288FA4C681}.Debug|x86.Build.0 = Debug|Any CPU
+		{D2CA8D76-C8B4-4984-A8B0-6A288FA4C681}.Release|x86.ActiveCfg = Release|Any CPU
+		{D2CA8D76-C8B4-4984-A8B0-6A288FA4C681}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

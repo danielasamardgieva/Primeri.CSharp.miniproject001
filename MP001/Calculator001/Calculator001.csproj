@@ -33,8 +33,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -45,6 +45,14 @@
     <ProjectReference Include="..\About\About.csproj">
       <Project>{7D5CF303-1316-4F04-8E8C-7293535CDA28}</Project>
       <Name>About</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Calculations\Calculations.csproj">
+      <Project>{D2CA8D76-C8B4-4984-A8B0-6A288FA4C681}</Project>
+      <Name>Calculations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Colors\Colors.csproj">
+      <Project>{60364F40-26EF-4447-AC7E-5036760C671E}</Project>
+      <Name>Colors</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
