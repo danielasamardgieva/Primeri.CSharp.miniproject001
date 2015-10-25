@@ -11,6 +11,9 @@ namespace Calculations
 		public Formula05 ()
 		{
 		}
+		/// <summary>
+		///Метод за пресмятане на Formula05 </summary>
+		/// <param name="_input" >Това е цялата команда с параметри, въведени от потребителя</param>
 		public void calc (string _input)
 		{
 			try {
@@ -40,6 +43,10 @@ namespace Calculations
 
 			}
 		}
+		/// <summary>
+		/// Вътрешен метод за пресмятане на Formula05 след парсване на командата от потребителя </param>
+		/// /// <param name="_param" >Това е масив от стрингове, който съдържа командата с парснати параметри, въведени от потребителя</param>
+		/// /// <param name="_result" >Това е променлива, която връща резултата от изчисление на формулата</param>
 		private bool runCalculate (String[] _param, out double _result)
 		{
 			try {
@@ -63,7 +70,8 @@ namespace Calculations
 			_result = 0;
 			return false;
 		}
-
+		/// <summary>
+		/// Метод, показващ синтаксиса на командата в командния ред </summary>
 		private void help ()
 		{
 			_cl.Result ();	Console.Write ("[канал]");

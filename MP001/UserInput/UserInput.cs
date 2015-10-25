@@ -10,13 +10,19 @@ namespace UserInput
 		Colors.ForCLI _c = new Colors.ForCLI ();
 		Calculations.MainLibrary _calc=new Calculations.MainLibrary();
 
+		/// <summary>
+		///Метод за управление на входните параметри </summary>
 		public UInput ()
 		{
 		}
+		/// <summary>
+		/// Метод за приветствие на потребителя </summary>
 		public void sayHello()
 		{
 			Console.Write ("Добре дошли в " + about.shortName + "\n" + about.version + "\n");
 		}
+		/// <summary>
+		/// Метод  за взимане на команда от потребителя </summary>
     	public void getUserCommands()
 		{
            string _command="";
@@ -50,7 +56,8 @@ namespace UserInput
 			}while(_command != "изход");
 		}
 			
-
+		/// <summary>
+		/// Проверка </summary>
 			public void justTesting()
 		{
 			Console.WriteLine("Стартиране на UserInput.Uinput.justTesting()");

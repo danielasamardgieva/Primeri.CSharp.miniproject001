@@ -9,12 +9,16 @@ namespace Calculations
 		//Библиотеки
 		private Colors.ForCLI _c=new Colors.ForCLI ();
 
-
+		/// <summary>
+		/// Конструктор за Formula01 </summary>
 		public Formula01 () 
 		{
+
 		}
 
-		//Парсване
+		/// <summary>
+		///Метод за пресмятане на Formula01 </summary>
+		/// <param name="_userInput" >Това е цялата команда с параметри, въведени от потребителя</param>
 		public void calc(string _userInput)
 		{
 			try {
@@ -48,7 +52,10 @@ namespace Calculations
 		}
 
 
-		//Изчислиние и изписване
+		/// <summary>
+		/// Вътрешен метод за пресмятане на Formula01 след парсване на командата от потребителя </param>
+		/// /// <param name="_param" >Това е масив от стрингове, който съдържа командата с парснати параметри, въведени от потребителя</param>
+		/// /// <param name="_result" >Това е променлива, която връща резултата от изчисление на формулата</param>
 		private bool runCalculations (string[] _param, out double _result)
 		{
 			try {
@@ -71,8 +78,8 @@ namespace Calculations
 			_result = 0;
 			return false;
 		}
-
-		//Помощ за командата
+		/// <summary>
+		/// Метод, показващ синтаксиса на командата в командния ред </summary>
 		public void help()
 		{
 			_c.Result (); Console.Write ("[яма]"); 	_c.Default (); Console.WriteLine (" - команда за пресмятане обема на строителен изкоп ");

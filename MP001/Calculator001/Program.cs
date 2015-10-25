@@ -6,7 +6,8 @@ namespace Calculator001
 	/// Главна библиотека на програмата - Main class </summary>
 	class MainClass
 	{
-		// Дефиниране на библиотеки
+		/// <summary>
+		/// Дефиниране на библиотеки </summary>
 		public UserInput.UInput uInput=new UserInput.UInput();
 		public About.Me about= new About.Me();
 

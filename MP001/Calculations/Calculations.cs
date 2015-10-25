@@ -13,7 +13,6 @@ namespace Calculations
 		public Formula04 F04=new Formula04();
 		public Formula05 F05=new Formula05();
 
-		public Fo
 
 		//Библиотеки
 		private Colors.ForCLI _cl=new Colors.ForCLI ();
@@ -33,8 +32,13 @@ namespace Calculations
 			_cl.Default ();Console.WriteLine ("[ - пресмятане на вдлъбнат ъгъл]");
 
 			_cl.Command (); Console.Write ("[иъгъл]");
-			_cl.Default ();Console.WriteLine ("[ - пресмятане на изпъкнал ъгъл \n]");
+			_cl.Default ();Console.WriteLine ("[ - пресмятане на изпъкнал ъгъл ]");
 
+			_cl.Command (); Console.Write ("[стръгъл]");
+			_cl.Default ();Console.WriteLine ("[ - пресмятане на страничен ъгъл ]");
+
+			_cl.Command (); Console.Write ("[канал]");
+			_cl.Default ();Console.WriteLine ("[ - пресмятане на канален изкоп ]\n");
 		}
 	}
 }
