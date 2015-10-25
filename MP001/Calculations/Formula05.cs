@@ -2,6 +2,8 @@
 
 namespace Calculations
 {
+	/// <summary>
+	/// Клас за формула, с която се изчислява обем на канален изкоп - Formula05 </summary>
 	public class Formula05
 	{
 		Colors.ForCLI _cl=new Colors.ForCLI();
@@ -9,7 +11,6 @@ namespace Calculations
 		public Formula05 ()
 		{
 		}
-		//Формула05 изчислява обем на канален изкоп 
 		public void calc (string _input)
 		{
 			try {

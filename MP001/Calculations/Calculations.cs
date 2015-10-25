@@ -2,6 +2,8 @@
 
 namespace Calculations
 {
+	/// <summary>
+	///Клас с дефиниции за формули, изчисляващи обем на изкоп за строителството - Main library </summary>
 	public class MainLibrary
 	{
 		//Дефиниции
@@ -10,6 +12,8 @@ namespace Calculations
 		public Formula03 F03=new Formula03();
 		public Formula04 F04=new Formula04();
 		public Formula05 F05=new Formula05();
+
+		public Fo
 
 		//Библиотеки
 		private Colors.ForCLI _cl=new Colors.ForCLI ();

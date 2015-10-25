@@ -2,11 +2,13 @@
 
 namespace Calculations
 {
+	/// <summary>
+	/// Формула за изчисляване обем на изкоп с вдлъбнат ъгъл - Formula02 </summary>
 	public class Formula02
 	{
 		Colors.ForCLI _cl=new Colors.ForCLI();
 
-		//Формула за вдлъбнат ъгъл
+
 		public Formula02 ()
 		{
 		}

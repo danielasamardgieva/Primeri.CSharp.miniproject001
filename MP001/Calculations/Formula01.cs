@@ -2,13 +2,15 @@
 
 namespace Calculations
 {
+	/// <summary>
+	/// Формула за изчисляване обем на строителна яма - Formula01 </summary>
 	public class Formula01
 	{
 		//Библиотеки
 		private Colors.ForCLI _c=new Colors.ForCLI ();
 
 
-		public Formula01 () //формула за яма
+		public Formula01 () 
 		{
 		}
 

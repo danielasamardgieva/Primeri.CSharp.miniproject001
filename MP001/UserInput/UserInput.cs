@@ -2,6 +2,8 @@
 
 namespace UserInput
 {
+	/// <summary>
+	/// Клас за управление на входните и изходните параметри - U input </summary>
 	public class UInput
 	{
 		About.Me about=new About.Me();

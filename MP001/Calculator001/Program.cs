@@ -2,6 +2,8 @@
 
 namespace Calculator001
 {
+	/// <summary>
+	/// Главна библиотека на програмата - Main class </summary>
 	class MainClass
 	{
 		// Дефиниране на библиотеки

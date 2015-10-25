@@ -2,6 +2,8 @@
 
 namespace Calculations
 {
+	/// <summary>
+	/// Формула за изчисляване обем на изкоп с изпъкнал ъгъл - Formula03 </summary>
 	public class Formula03
 	{
 		Colors.ForCLI _cl=new Colors.ForCLI();
@@ -9,7 +11,7 @@ namespace Calculations
 		public Formula03 ()
 		{
 		}
-		//Формула03 изчислява обем изкоп = на изпъкнал ъгъл
+
 		public void calc (string _input)
 		{
 			try {

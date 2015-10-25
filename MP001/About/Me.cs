@@ -2,6 +2,8 @@
 
 namespace About
 {
+	/// <summary>
+	///Информация за програмата - име и версия = Me </summary>
 	public class Me
 	{
 		public string shortName = "СКалкуратор";

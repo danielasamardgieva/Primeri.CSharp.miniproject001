@@ -2,6 +2,8 @@
 
 namespace Calculations
 {
+	/// <summary>
+	/// Клас за формула, с която се изчислява обем на изкоп със страничен ъгъл - Formula04 </summary>
 	public class Formula04
 	{
 		Colors.ForCLI _cl=new Colors.ForCLI();

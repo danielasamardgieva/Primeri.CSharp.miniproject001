@@ -2,6 +2,8 @@
 
 namespace Colors
 {
+	/// <summary>
+	/// Клас за форматиране на изходните данни (с цветове) For CLI </summary>
 	public class ForCLI
 	{
 		public ForCLI ()
